@@ -5,8 +5,8 @@
 #
 
 cron "clientrun" do
-  minute '0'
-  hour '*/1'
+  minute '*/1'
+#  hour '0'
   command "/usr/bin/chef-client"
   action :create
 end
