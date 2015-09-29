@@ -5,9 +5,9 @@
 #
 
 cron "clientrun" do
-  minute '*/1'
+  minute '*/15'
 #  hour '0'
-  command "/usr/bin/chef-client"
+  command "/usr/bin/chef-client >> /var/log/chef/cron.log"
   action :create
 end
 
