@@ -1,0 +1,22 @@
+{
+  "name": "dev",
+  "description": "",
+  "cookbook_versions": {
+  },
+  "json_class": "Chef::Environment",
+  "chef_type": "environment",
+  "default_attributes": {
+    "apache": {
+      "prefork": {
+        "startservers": "30",
+        "minspareservers": "5",
+        "maxspareservers": "30",
+        "serverlimit": "65",
+        "maxclients": "60",
+        "maxrequestsperchild": "1000"
+      }
+    }
+  },
+  "override_attributes": {
+  }
+}

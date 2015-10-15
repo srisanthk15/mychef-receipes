@@ -1,0 +1,12 @@
+{
+  "id": "siddu",
+  "password": "redhaT",
+  "groups": [
+    "sysadmin"
+  ],
+  "shell": "/bin/bash",
+  "htpasswd": "tLe1f5u0fA6Ns",
+  "nagios": {
+    "email": "you@example.com"
+  }
+}
